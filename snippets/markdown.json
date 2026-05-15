@@ -1,0 +1,142 @@
+{
+  "Keep a Changelog: init changelog": {
+    "prefix": "cl-init",
+    "body": [
+      "# Changelog",
+      "",
+      "All notable changes to this project will be documented in this file.",
+      "",
+      "The format is based on [Keep a Changelog],",
+      "and this project adheres to [Semantic Versioning].",
+      "",
+      "## [Unreleased]",
+      "",
+      "## [${1:0.1.0}] - ${2:YYYY-MM-DD}",
+      "",
+      "### Added",
+      "",
+      "- Initial release.$0",
+      "",
+      "[Keep a Changelog]: https://keepachangelog.com/en/1.1.0/",
+      "[Semantic Versioning]: https://semver.org/spec/v2.0.0.html",
+      "[Unreleased]: https://github.com/${3:owner}/${4:repo}/compare/v${1:0.1.0}...HEAD",
+      "[${1:0.1.0}]: https://github.com/${3:owner}/${4:repo}/releases/tag/v${1:0.1.0}"
+    ],
+    "description": "Create a new Keep a Changelog file skeleton."
+  },
+  "Keep a Changelog: version heading": {
+    "prefix": "cl-version",
+    "body": [
+      "## [${1:1.0.0}] - ${2:YYYY-MM-DD}$0"
+    ],
+    "description": "Create a changelog version heading."
+  },
+  "Keep a Changelog: full version section": {
+    "prefix": "cl-version-full",
+    "body": [
+      "## [${1:1.0.0}] - ${2:YYYY-MM-DD}",
+      "",
+      "### Added",
+      "",
+      "- $0",
+      "",
+      "### Changed",
+      "",
+      "### Deprecated",
+      "",
+      "### Removed",
+      "",
+      "### Fixed",
+      "",
+      "### Security"
+    ],
+    "description": "Create a version section with all Keep a Changelog categories."
+  },
+  "Keep a Changelog: all categories": {
+    "prefix": "cl-entries",
+    "body": [
+      "### Added",
+      "",
+      "- $0",
+      "",
+      "### Changed",
+      "",
+      "### Deprecated",
+      "",
+      "### Removed",
+      "",
+      "### Fixed",
+      "",
+      "### Security"
+    ],
+    "description": "Create all Keep a Changelog change categories."
+  },
+  "Keep a Changelog: added": {
+    "prefix": "cl-added",
+    "body": [
+      "### Added",
+      "",
+      "- $0"
+    ],
+    "description": "Create an Added section for new features."
+  },
+  "Keep a Changelog: changed": {
+    "prefix": "cl-changed",
+    "body": [
+      "### Changed",
+      "",
+      "- $0"
+    ],
+    "description": "Create a Changed section for changes in existing functionality."
+  },
+  "Keep a Changelog: deprecated": {
+    "prefix": "cl-deprecated",
+    "body": [
+      "### Deprecated",
+      "",
+      "- $0"
+    ],
+    "description": "Create a Deprecated section for soon-to-be removed features."
+  },
+  "Keep a Changelog: removed": {
+    "prefix": "cl-removed",
+    "body": [
+      "### Removed",
+      "",
+      "- $0"
+    ],
+    "description": "Create a Removed section for removed features."
+  },
+  "Keep a Changelog: fixed": {
+    "prefix": "cl-fixed",
+    "body": [
+      "### Fixed",
+      "",
+      "- $0"
+    ],
+    "description": "Create a Fixed section for bug fixes."
+  },
+  "Keep a Changelog: security": {
+    "prefix": "cl-security",
+    "body": [
+      "### Security",
+      "",
+      "- $0"
+    ],
+    "description": "Create a Security section for vulnerability notes."
+  },
+  "Keep a Changelog: first release link": {
+    "prefix": "cl-link-first",
+    "body": [
+      "[${1:1.0.0}]: https://github.com/${2:owner}/${3:repo}/releases/tag/v${1:1.0.0}$0"
+    ],
+    "description": "Create a reference link for the first release."
+  },
+  "Keep a Changelog: compare link": {
+    "prefix": "cl-link-compare",
+    "body": [
+      "[${1:1.0.0}]: https://github.com/${2:owner}/${3:repo}/compare/v${4:previous}...v${1:1.0.0}$0"
+    ],
+    "description": "Create a reference link comparing two releases."
+  }
+}
